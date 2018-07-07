@@ -1,6 +1,8 @@
 # GoogleSay
 ESP8266 making Google Home speak!
 
+[![ESP8266 Google Home](https://img.youtube.com/vi/aWBr0WYP6Zs/0.jpg)](https://www.youtube.com/watch?v=aWBr0WYP6Zs)
+
 ### Prerequisites/Limitations
 * The **GoogleHomeName** must match the name of Google Home / mini setup in Google Home App.
 * The ESP8266 must be on the same network as Google Home.
