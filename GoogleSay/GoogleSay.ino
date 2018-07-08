@@ -174,6 +174,10 @@ void setup(void) {
 
   server.begin();
   Serial.println("HTTP server started");
+  
+  if (MDNS.begin(host)) {
+    Serial.println("MDNS responder started");
+  }
 
   connectToGH();
 
